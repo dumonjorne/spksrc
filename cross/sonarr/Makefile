@@ -1,8 +1,8 @@
 PKG_NAME = NzbDrone
 PKG_VERS = 2.0.0.5344
-PKG_EXT = tar.gz
-PKG_DIST_NAME = $(PKG_NAME).master.$(PKG_VERS).mono.$(PKG_EXT)
-PKG_DIST_SITE = https://download.sonarr.tv/v2/master/mono
+PKG_EXT = tar
+PKG_DIST_NAME = sonarr.$(PKG_EXT)
+PKG_DIST_SITE = https://github.com/dumonjorne/Sonarr/releases/download/v3.0.0.1/
 PKG_DIR = NzbDrone
 
 DEPENDS =
